@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+    --primary-color: #121212;
+    --secondary-color: #D4AF37;
+    --tertiary-color: #8B0000;
+    --neutral-color: #2A2A2A;
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+/* Fuente principal (body) */
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Títulos */
+.font-title {
+    font-family: 'Libre Caslon Text', serif;
+}
+
+/* Labels / código */
+.font-label {
+    font-family: 'JetBrains Mono', monospace;
+}
