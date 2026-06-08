@@ -6,7 +6,7 @@ import { MainRoutes } from './routes/MainRoutes.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/puchainas_gordas/'>
       <MainRoutes />
     </BrowserRouter>
   </StrictMode>,
