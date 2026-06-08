@@ -1,6 +1,7 @@
 import { FaShield, FaDiscord } from "react-icons/fa6";
 
 import logo from "../assets/logo.png"
+import background from "../assets/background.png"
 
 export const Landing = () => {
 
@@ -23,7 +24,7 @@ export const Landing = () => {
 
             </header>
 
-            <section className="w-full bg-[url('src/assets/background.png')] bg-blend-overlay bg-black/75 flex flex-col items-center gap-4 pt-16 bg-cover bg-center pb-10">
+            <section style={{ backgroundImage: `url(${background})` }} className="w-full bg-blend-overlay bg-black/75 flex flex-col items-center gap-4 pt-16 bg-cover bg-center pb-10">
 
                 <span className="border border-(--secondary-color) rounded-lg bg-black w-50 p-3">
                     <img src={logo} alt="logo" className="w-full" />
